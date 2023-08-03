@@ -1,0 +1,272 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  font-family: "REM";
+  margin: 0px;
+  scroll-behavior: smooth;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #d0bebe83;
+    background-color: #f7f7f7;
+}
+
+main{
+    font-family: "REM";
+}
+
+header{
+    font-family: "REM";
+}
+
+.nametag{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.btn-group .button {
+    background-color: #f7f7f7;
+    border: 1px solid rgb(83, 4, 4);
+    color: rgb(54, 0, 6);
+    padding: 15px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    cursor: pointer;
+    float: left;
+    font-family: "REM";
+    margin-top: 10px;
+    margin-right: 10px;
+  }
+
+  .btn-group .button:first-child{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .btn-group .button:last-child{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  .btn-group .button:not(:last-child) {
+    border-right: none; /* Prevent double borders */
+    margin-right: 0px;
+  }
+  
+  .btn-group .button:hover {
+    background-color: #d0bebe;
+  }
+
+  .icon{
+    display: flex;
+    justify-items: center;
+  }
+
+  #pfp{
+    width: 80px;
+    margin-right: 15px;
+  }
+
+  .cnt{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border: 2px solid #ead5d5;
+    background-color: #ead5d5;
+    width: 270px;
+    height: 500px;
+    margin-left: 50px;
+    border-radius: 10px;
+  }
+
+  .cnt form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+  }
+
+  .cnt form div{
+    row-gap: 8px;
+  }
+  .cnt form div input{
+    padding: 10px;
+    font-size: medium;
+    font-family: "REM";
+    border-radius: 5px;
+  }
+
+  .cnt form select{
+    padding: 10px;
+    font-size: medium;
+    font-family: "REM";
+    border-radius: 5px;
+  }
+
+  .cnt #text{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+  }
+
+  .home{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .sub {
+    background-color: rgb(101, 12, 12);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 10px ;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "REM";
+  }
+  
+  .sub:hover {opacity: 1}
+
+  .list .bullet{
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    margin-bottom: 10px;
+  }
+  
+  #box{
+    font-size: 40px;
+    background-color: rgb(237, 198, 198);
+    display: flex;
+    justify-content: center;
+    padding: 90px;
+    margin-bottom: 100px;
+    margin-top: 40px;
+  }
+
+  #st{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 80px;
+    justify-content: space-evenly;
+  }
+
+  #nd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .mipy{
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .mipy h4{
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-size: x-large;
+  }
+
+  .mipy p{
+    font-size: small;
+    margin-top: 0px;
+    width: 200px;
+
+  }
+
+
+  #st img{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+
+  #nd img{
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+  }
+
+  .pack{
+    margin-bottom: 90px;
+  }
+
+  .closing{
+    display: flex;
+    padding-top: 70px;
+    border-top: 2px solid #f9c9c9;
+    background-color: rgb(237, 198, 198);
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+    align-items: center;
+    
+  }
+
+
+  .call {
+    background-color: rgb(101, 12, 12);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 10px ;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: "REM";
+    width: 250px;
+    margin-bottom: 120px;
+    
+  }
+  
+  .call:hover {opacity: 1}
+
+  footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+  }
+
+  #feet{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+  }
+  
+  .slider{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fade {
+    animation: fade 2s;
+}
+
+@keyframes fade {
+    from{opacity: .4;}
+    to{opacity: 1;}
+} 
